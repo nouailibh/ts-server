@@ -18,5 +18,5 @@ jobs:
         id: scr
         with:
           scripts-folder: "scripts"
-      - name: Get the output
+      - name: Get the ouput
         run: echo "Result -> ${{steps.scr.outputs}}"
